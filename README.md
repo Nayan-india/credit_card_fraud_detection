@@ -74,7 +74,7 @@ This section contains the details about the project made.
 
 The challenge was to recognize fraudulent credit card transactions so that the customers of credit card companies are not charged for items that they did not purchase.
 
-#Main challenges involved in credit card fraud detection are:
+<h6>Main challenges involved in credit card fraud detection are:</h6>
 <ol>
 <li>Enormous Data is processed every day and the model build must be fast enough to respond to the scam in time.</li>
 <li>Imbalanced Data i.e most of the transactions (99.8%) are not fraudulent which makes it really hard for detecting the fraudulent ones</li>
@@ -83,7 +83,7 @@ The challenge was to recognize fraudulent credit card transactions so that the c
 <li>Adaptive techniques used against the model by the scammers.</li>
 </ol>
 </br>
-# How I tackled these challenges?
+<h6> How I tackled these challenges?</h6>
 <ol>
 <li>The model used must be simple and fast enough to detect the anomaly and classify it as a fraudulent transaction as quickly as possible.</li>
 <li>Imbalance can be dealt with by properly using some methods which i will talk about in the next paragraph</li>
@@ -92,7 +92,7 @@ The challenge was to recognize fraudulent credit card transactions so that the c
 <li>We can make the model simple and interpretable so that when the scammer adapts to it with just some tweaks we can have a new model up and running to deploy.</li>
 </ol>
 
-# Used Random Forest model to solve the problem.
+<h6> Used Random Forest model to solve the problem.</h6>
 
 ## License
 
